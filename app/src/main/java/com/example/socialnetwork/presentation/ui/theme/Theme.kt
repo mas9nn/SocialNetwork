@@ -1,4 +1,4 @@
-package com.example.socialnetwork.ui.theme
+package com.example.socialnetwork.presentation.ui.theme
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
