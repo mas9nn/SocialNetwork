@@ -4,16 +4,17 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.socialnetwork.presentation.login.LoginScreen
 
 @Composable
 fun Navigation(){
     val navController = rememberNavController()
     NavHost(
         navController = navController,
-        startDestination =  Screens.LoginScreen.route
+        startDestination =  Screen.LoginScreen.route
     ){
-        composable(Screens.LoginScreen.route){
-
+        composable(Screen.LoginScreen.route){
+            LoginScreen(navController = navController)
         }
     }
 }

@@ -3,7 +3,7 @@
 
     <item android:drawable="@color/dark_gray" />
     <item
-        android:drawable="@drawable/ic_logo"
+        android:drawable="@drawable/ic_cheflist_splash"
         android:gravity="center" />
 
 </layer-list>
